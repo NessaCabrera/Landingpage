@@ -1,0 +1,51 @@
+@media screen and (max-width:768px) {
+    #mobile1{
+        display: none;
+    }
+    #mobile2{
+        display: block;
+    }
+    #menu_sup{
+     display: none;   
+
+    }
+    
+}
+
+@media screen and (max-width: 768px ) {
+    #logo{
+        display: none;
+    }   
+
+    #mobile{
+        display: block;
+    }
+    .login{
+        display: none;
+    }
+    .menu a,
+    .menu div{
+        display: none;
+    }
+    main img{
+        object-position: center;
+    }
+
+}
+
+
+
+
+@media(max-widt:600px){
+    .buscador{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .buscar{
+        grid-column: 1/1;
+        margin-top: 20px;
+    }
+}
+@media(max-width: 600px){
+        
+}
