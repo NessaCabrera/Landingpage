@@ -101,6 +101,7 @@ main img{
     display: grid;
     grid-template-rows: auto 1fr;
     padding: 0 5%;
+    position: fixed;
 }
 /*--*/
 
@@ -380,10 +381,33 @@ color: black;
 
 
 /* Services*/
-.art{
+#art{
+    height: 100%;
     display: grid;
-    grid-template-columns: 1fr, 1fr ;
+    grid-template-columns: 1fr, 1fr, 1fr;
 }
+.contserv{
+    display: grid;
+    grid-template-columns: 1FR, 1FR;
+
+    
+}
+#tituloart1{
+  
+    font-size: 25px;
+    text-align: left;
+    color: #DF991B;
+    margin: 0px;
+}
+
+#tituloart2{
+    
+    font-size: 50px;
+    text-align: center;
+
+}
+
+
 /* footer*/
 #piePagina{
     display: grid;
